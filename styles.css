@@ -1,0 +1,105 @@
+/* Reseting CSS */
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+    background: rgb(69, 69, 139);
+}
+
+/* My Css */
+header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+h3 {
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    padding: 2.3rem 4rem;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.main-content {
+    position: relative;
+    min-height: 80vh;
+    padding: 1rem;
+}
+
+.game-container {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-cards {
+    display: grid;
+    max-height: 100%;
+    padding: 0rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    background: rgb(15, 26, 71);
+    background-position: center center;
+    border-radius: 1rem;
+    width: 125px;
+    height: 125px;
+}
+
+.completed {
+    border-radius: 1rem;
+    background-position: center center;
+    width: 125px;
+    height: 125px;
+}
+
+.buttons-container {
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.buttons-container button {
+    background: #FFF;
+    width: 25rem;
+    height: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-radius: 1rem;
+    z-index: 99;
+}
